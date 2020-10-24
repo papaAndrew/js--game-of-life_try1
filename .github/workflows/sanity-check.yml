@@ -10,9 +10,12 @@ jobs:
         uses: actions/chekout@v2
 
       - name: Install packages
-      - run:
-          npm install
+      - run: npm install
 
       - name: Lint check
       - run: |
           npm run lint
+
+      - name: Lint check
+      - run: |
+          npm run test
