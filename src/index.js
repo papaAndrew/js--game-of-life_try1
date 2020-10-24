@@ -1,5 +1,3 @@
-export default function someFunc() {
-  const a = 1;
+alert("Hello!")
 
-  return a + 3;
-}
+cons a = 1;
